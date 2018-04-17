@@ -17,7 +17,7 @@ import App from 'layouts/Home/Home.jsx';
 const hist = createBrowserHistory();
 
 ReactDOM.render(
-    <Router history={hist}>
+    <HashRouter history={hist}>
         <Switch>
             <App/>
             {/* {
@@ -32,5 +32,5 @@ ReactDOM.render(
                 })
             } */}
         </Switch>
-    </Router>
+    </HashRouter>
 , document.getElementById('root'));
