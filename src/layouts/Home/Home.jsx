@@ -97,7 +97,7 @@ class App extends React.Component{
                     
                     <Redirect to='/'/>
                 </Switch>
-                <Footer fluid/>
+                <Footer />
             </div>
         );
     }
