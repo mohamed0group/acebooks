@@ -5,6 +5,7 @@ import {
     BrowserRouter,
     StaticRouter
 } from 'react-router-dom';
+import { createServer } from 'http'
 import ReactDomServer ftom 'react-dom/server';
 import 'bootstrap/dist/css/bootstrap.css';
 import 'assets/scss/now-ui-dashboard.css';
