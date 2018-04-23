@@ -4,6 +4,7 @@
   "private": true,
   "homepage": "https://acegroup.js.org",
   "dependencies": {
+    "http": "^0.0.0",
     "bootstrap": "4.0.0-beta",
     "chart.js": "2.7.1",
     "history": "^4.7.2",
