@@ -24,20 +24,12 @@ createServer((req, res) => {
       <App/>
     </StaticRouter>
   )
-
-  if (context.url) {
-    res.writeHead(301, {
-      Location: context.url
-    })
-    res.end()
-  } else {
     res.write(`
       <!doctype html>
-      <div id="root">${html}</div>
+      <div id="app">${html}</div>
     `)
-    res.end()
-  }
-}).listen(3000)
+    res.end() 
+    });
 const hist = createBrowserHistory();
 ReactDOM.render((
   <BrowserRouter history = {hist}>
